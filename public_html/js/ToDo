@@ -1,0 +1,7 @@
+File index-generaBordi.js:
+    
+    Possibilità di avere estremi con lo stesso colore per vari motivi:
+        1) in generaBordoDestro() o generaBordoInferiore() sono entrato in qualche if ed ho assegnato colori identici a quelli nell'estremo
+           opposto
+        2) in generaBordoSuperioreColonna() e generaBordoInferioreColonna() ho assegnato lo stesso colore ai due estremi a causa
+           della scelta casuale.

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gioco 3 colori</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css" type="text/css" />
+        <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <link rel="stylesheet" href="lib/ElegantFonts/ElegantFonts.css" type="text/css" />
+    </head>
+    <body>
+        <div id="main_container">
+
+            <div id="errore_gioco_container" class='nascondi_errore_gioco'>
+                <p id="errore_gioco_testo">Oops! c'è qualcosa che non va!</p>
+            </div>
+
+            <div id="table_container">
+                <table id="scacchiera">
+                    <tbody>
+                        <tr id="riga_1">
+                            <td id="cella_1A" class="bordo">X</td>
+                            <td id="cella_1B" class="bordo"></td>
+                            <td id="cella_1C" class="bordo"></td>
+                            <td id="cella_1D" class="bordo"></td>
+                            <td id="cella_1E" class="bordo"></td>
+                            <td id="cella_1F" class="bordo"></td>
+                            <td id="cella_1G" class="bordo"></td>
+                            <td id="cella_1H" class="bordo">X</td>
+                        </tr> <!-- FINE RIGA 1 -->
+                        <tr id="riga_2">
+                            <td id="cella_2A" class="bordo "></td>
+                            <td id="cella_2B" class="area_di_gioco"></td>
+                            <td id="cella_2C" class="area_di_gioco"></td>
+                            <td id="cella_2D" class="area_di_gioco"></td>
+                            <td id="cella_2E" class="area_di_gioco"></td>
+                            <td id="cella_2F" class="area_di_gioco"></td>
+                            <td id="cella_2G" class="area_di_gioco"></td>
+                            <td id="cella_2H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 2 -->
+                        <tr id="riga_3">
+                            <td id="cella_3A" class="bordo "></td>
+                            <td id="cella_3B" class="area_di_gioco"></td>
+                            <td id="cella_3C" class="area_di_gioco"></td>
+                            <td id="cella_3D" class="area_di_gioco"></td>
+                            <td id="cella_3E" class="area_di_gioco"></td>
+                            <td id="cella_3F" class="area_di_gioco"></td>
+                            <td id="cella_3G" class="area_di_gioco"></td>
+                            <td id="cella_3H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 3 -->
+                        <tr id="riga_4">
+                            <td id="cella_4A" class="bordo "></td>
+                            <td id="cella_4B" class="area_di_gioco"></td>
+                            <td id="cella_4C" class="area_di_gioco"></td>
+                            <td id="cella_4D" class="area_di_gioco"></td>
+                            <td id="cella_4E" class="area_di_gioco"></td>
+                            <td id="cella_4F" class="area_di_gioco"></td>
+                            <td id="cella_4G" class="area_di_gioco"></td>
+                            <td id="cella_4H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 4 -->
+                        <tr id="riga_5">
+                            <td id="cella_5A" class="bordo "></td>
+                            <td id="cella_5B" class="area_di_gioco"></td>
+                            <td id="cella_5C" class="area_di_gioco"></td>
+                            <td id="cella_5D" class="area_di_gioco"></td>
+                            <td id="cella_5E" class="area_di_gioco"></td>
+                            <td id="cella_5F" class="area_di_gioco"></td>
+                            <td id="cella_5G" class="area_di_gioco"></td>
+                            <td id="cella_5H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 5 -->
+                        <tr id="riga_6">
+                            <td id="cella_6A" class="bordo "></td>
+                            <td id="cella_6B" class="area_di_gioco"></td>
+                            <td id="cella_6C" class="area_di_gioco"></td>
+                            <td id="cella_6D" class="area_di_gioco"></td>
+                            <td id="cella_6E" class="area_di_gioco"></td>
+                            <td id="cella_6F" class="area_di_gioco"></td>
+                            <td id="cella_6G" class="area_di_gioco"></td>
+                            <td id="cella_6H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 6 -->
+                        <tr id="riga_7">
+                            <td id="cella_7A" class="bordo "></td>
+                            <td id="cella_7B" class="area_di_gioco"></td>
+                            <td id="cella_7C" class="area_di_gioco"></td>
+                            <td id="cella_7D" class="area_di_gioco"></td>
+                            <td id="cella_7E" class="area_di_gioco"></td>
+                            <td id="cella_7F" class="area_di_gioco"></td>
+                            <td id="cella_7G" class="area_di_gioco"></td>
+                            <td id="cella_7H" class="bordo "></td>
+                        </tr> <!-- FINE RIGA 7 -->
+                        <tr id="riga_8">
+                            <td id="cella_8A" class="bordo">X</td>
+                            <td id="cella_8B" class="bordo"></td>
+                            <td id="cella_8C" class="bordo"></td>
+                            <td id="cella_8D" class="bordo"></td>
+                            <td id="cella_8E" class="bordo"></td>
+                            <td id="cella_8F" class="bordo"></td>
+                            <td id="cella_8G" class="bordo"></td>
+                            <td id="cella_8H" class="bordo">X</td>
+                        </tr> <!-- FINE RIGA 8 -->
+                    </tbody>
+                </table>
+            </div><!-- FINE table_container -->
+
+            <!-- Scelte colori
+            =================================================================-->
+
+            <div id="scegli_colore_bordo_container" class="nascondi">
+                <div id="scegli_colore_bordo">
+                    <span id="scelta_bordo_rosso" class="cella_colorata bordo_rosso"></span>
+                    <span id="scelta_bordo_verde" class="cella_colorata bordo_verde"></span>
+                    <span id="scelta_bordo_blu" class="cella_colorata bordo_blu"></span>
+                    <span id="scelta_no_bordo" class="cella_colorata cella_X"></span>
+                </div>
+            </div>
+
+
+            <div id="scegli_colore_container" class="nascondi">
+                <div id="scegli_colore">
+                    <span id="scelta_rosso" class="cella_colorata cella_rosso"></span>
+                    <span id="scelta_verde" class="cella_colorata cella_verde"></span>
+                    <span id="scelta_blu" class="cella_colorata cella_blu"></span>
+                    <span id="scelta_bianca" class="cella_colorata cella_bianca"></span>
+                    <span id="scelta_X" class="cella_colorata cella_X"></span>
+                </div>
+            </div>
+
+            <!-- Vittoria & Sconfitta
+            =================================================================-->
+            <div id="youWin" class="nascondi">
+                <p>
+                    Complimenti!
+                    Hai risolto il puzzle!
+                </p>
+            </div>
+
+            <div id="youLose" class="nascondi">
+                <p>
+                    Peccato!
+                    Ritenta con un altro puzzle!
+                </p>
+            </div>
+
+        </div>
+
+        <script src="lib/myUtils/myUtils.js" type="text/javascript"></script>
+        <!--
+        <script src="js/index.js" type="text/javascript"></script>
+        -->
+
+        <script src="js/index-newCodingVersion.js" type="text/javascript"></script>
+
+        <!--
+        <script src="js/index-MostraTabelloneImpossibileDaCreare.js" type="text/javascript"></script>
+        -->
+        <!--
+        <script src="js/index-dimmiQuantiTentativiOkEQuantiNo.js" type="text/javascript"></script>
+        -->
+
+        <!--
+        <script src="js/index-generaBordi.js" type="text/javascript"></script>
+        -->
+
+        <!--
+        <script src="js/index-modalitàCreazione.js" type="text/javascript"></script>
+        -->
+    </body>
+</html>
+

@@ -1,0 +1,9 @@
+1) i servitori sono posizionati ovunque si vuole nella scacchiera ( eccetto i bordi ovviamente xD )
+2) ci possono essere pedine tra un servitore ed un bordo colorato
+3) ci possono essere pedine tra un servitore ed un bordo non colorato 
+NOTA: una volta creato l'algoritmo per fare tabelloni negare la 2) e la 3) e vedere cosa succede 
+4) numero arbitrario di bordi non colorati
+5) numero arbitrario di servitori
+NOTA: più alto è il numero di servitori e bordi non colorati, maggiore è la difficoltà (forse xD). Ovviamente il tabellone deve continuare ad avere una soluzione
+6) soluzione unica
+NOTA: 6) preferibilmente sì, da vedere se è fattibile

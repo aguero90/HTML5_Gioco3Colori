@@ -1,0 +1,6 @@
+1) se nel bordo superiore ho X, X, X, X, Y, Z e nel bordo sinistro ho come ultimo colore X => il tabellone è impossibile
+2) se nel bordo superiore ho X, Y, Z, Z, Z, Z e nel bordo destro ho come ultimo colore Z => il tabellone è impossibile
+3) se nel bordo superiore ho X, Y, Y, Y, Y, Z  il tabellone è impossibile se
+    Y è uno dei colori agli estremi dell'ultima riga e l'altro colore di quell'angolo non corrisponde a lui ( cioè non è Y ).
+
+

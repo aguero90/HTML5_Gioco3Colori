@@ -1,0 +1,244 @@
+/* COLORI
+=============================================================================================== */
+.grigio{
+    color: rgb(119, 119, 119);
+}
+
+.rosso{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+.blu{
+    color: blue;
+}
+
+
+
+
+
+/* RIEMPIMENTO CELLE
+=============================================================================================== */
+.bordo_rosso{
+    background: transparent url('../img/bordo_rosso.png') no-repeat center center;
+}
+
+.bordo_verde{
+    background: transparent url('../img/bordo_verde.png') no-repeat center center;
+}
+
+.bordo_blu{
+    background: transparent url('../img/bordo_blu.png') no-repeat center center;
+}
+
+.cella_rosso{
+    background: transparent url('../img/cella_rosso.jpg') no-repeat center center;
+}
+
+.cella_verde{
+    background: transparent url('../img/cella_verde.jpg') no-repeat center center;
+}
+
+.cella_blu{
+    background: transparent url('../img/cella_blu.jpg') no-repeat center center;
+}
+
+.cella_X, .bordo_X{
+    background: transparent url('../img/X.png') no-repeat center center;
+    background-size: contain;
+}
+
+#scacchiera td{
+    background-size: contain;
+}
+
+#scacchiera .bordo{
+    background-size: 35px 35px;
+}
+
+
+
+/* GENERALE
+=============================================================================================== */
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.icon_circle-slelected{
+    font-size: 1.7em;
+}
+
+.nascondi{
+    display: none;
+}
+
+.errore{
+    border: 2px solid red;
+}
+
+
+/* DESCRIZIONE
+=============================================================================================== */
+#description_container{
+    width: 100%;
+    text-align: center;
+}
+
+#nome_gioco{
+    color: rgb(255,127,4);
+    font-size: 2.5em;
+    margin: 25px 0;
+}
+
+#descrizione_gioco, #regole_gioco{
+    margin: 10px 0;
+}
+
+
+
+
+
+/* TABELLA
+=============================================================================================== */
+#table_container{
+    width: 100%;
+    margin: 50px 0;
+}
+
+#scacchiera{
+    margin: auto;
+}
+
+td{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(119, 119, 119); /* grigio palette */
+    position: relative;
+}
+
+.bordo{
+    border: none;
+    color: rgb(119, 119, 119); /* grigio palette */
+}
+
+.bordo_colorabile{
+
+}
+
+.area_di_gioco > span{
+    width: 45%;
+    height: 45%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.area_di_gioco.r > span.red{
+    background: transparent url('../img/cella_rosso.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+.area_di_gioco.g > span.green{
+    background: transparent url('../img/cella_verde.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+.area_di_gioco.b > span.blue{
+    background: transparent url('../img/cella_blu.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+
+
+
+/* SCELTA COLORE
+=============================================================================================== */
+#scegli_colore_container, #scegli_colore_bordo_container, #youWin, #youLose{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#scegli_colore, #scegli_colore_bordo{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin: -50px 5% 0 5%;
+    padding: 0 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 90%;
+}
+
+#scegli_colore span, #scegli_colore_bordo span{
+    display: inline-block;
+    width: 19%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 6em;
+}
+
+#scegli_colore_bordo span{
+    width: 20%;
+}
+
+
+
+
+/* ERRORI DI GIOCO E DI SOLUZIONE
+=============================================================================================== */
+#errore_gioco_container{
+    max-height: 200px;
+    opacity: 1;
+    width: 60%;
+    margin: 10px auto 0 auto;
+    border-radius: 7px;
+    background: rgba(255, 0, 0, 0.8);
+    -moz-transition: max-height 2s ease-in, opacity 1s ease-in 0.3s;
+}
+
+#errore_gioco_container.nascondi_errore_gioco{
+    max-height: 0;
+    opacity: 0;
+    -moz-transition: max-height 2s ease-out, opacity 1s ease-out 1s;
+}
+
+#errore_gioco_testo{
+    padding: 10px 25px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+#youWin>p, #youLose>p{
+    position: absolute;
+    top: 50%;
+    height: 200px;
+    margin: -100px auto 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;  
+}
+
+
+
+
+
+
+
+
+

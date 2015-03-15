@@ -1,0 +1,64 @@
+Su 10 tentativi: 7 ok 3 ko ==> 70% di riuscita
+Su 10 tentativi: 6 ok 4 ko ==> 60% di riuscita
+Su 10 tentativi: 7 ok 3 ko ==> 70% di riuscita
+Su 10 tentativi: 5 ok 5 ko ==> 50% di riuscita
+Su 10 tentativi: 6 ok 4 ko ==> 60% di riuscita
+Su 10 tentativi: 3 ok 7 ko ==> 30% di riuscita
+Su 10 tentativi: 5 ok 5 ko ==> 50% di riuscita
+Su 10 tentativi: 9 ok 1 ko ==> 90% di riuscita
+Su 10 tentativi: 6 ok 4 ko ==> 60% di riuscita
+Su 10 tentativi: 3 ok 7 ko ==> 30% di riuscita
+
+Su 100 tentativi: 65 ok 36 ko ==> 65% di riuscita
+Su 100 tentativi: 67 ok 33 ko ==> 67% di riuscita
+Su 100 tentativi: 71 ok 30 ko ==> 71% di riuscita
+Su 100 tentativi: 59 ok 43 ko ==> 59% di riuscita
+Su 100 tentativi: 58 ok 42 ko ==> 58% di riuscita
+Su 100 tentativi: 61 ok 39 ko ==> 61% di riuscita
+Su 100 tentativi: 77 ok 23 ko ==> 77% di riuscita
+Su 100 tentativi: 62 ok 38 ko ==> 62% di riuscita
+Su 100 tentativi: 66 ok 36 ko ==> 66% di riuscita
+Su 100 tentativi: 68 ok 33 ko ==> 68% di riuscita
+
+Su 1000 tentativi: 677 ok 328 ko ==> 67.7% di riuscita
+Su 1000 tentativi: 653 ok 358 ko ==> 65.3% di riuscita
+Su 1000 tentativi: 646 ok 367 ko ==> 64.6% di riuscita
+Su 1000 tentativi: 607 ok 402 ko ==> 60.7% di riuscita
+Su 1000 tentativi: 657 ok 351 ko ==> 65.7% di riuscita
+Su 1000 tentativi: 683 ok 329 ko ==> 68.3% di riuscita
+Su 1000 tentativi: 646 ok 362 ko ==> 64.6% di riuscita
+Su 1000 tentativi: 681 ok 333 ko ==> 68.1% di riuscita
+Su 1000 tentativi: 656 ok 354 ko ==> 65.6% di riuscita
+Su 1000 tentativi: 649 ok 361 ko ==> 64.9% di riuscita
+
+Su 10000 tentativi: 6540 ok 3543 ko ==> 65.4% di riuscita
+Su 10000 tentativi: 6530 ok 3548 ko ==> 65.3% di riuscita
+Su 10000 tentativi: 6614 ok 3441 ko ==> 66.14% di riuscita
+Su 10000 tentativi: 6544 ok 3519 ko ==> 65.44% di riuscita
+Su 10000 tentativi: 6494 ok 3601 ko ==> 64.94% di riuscita
+Su 10000 tentativi: 6625 ok 3442 ko ==> 66.25% di riuscita
+Su 10000 tentativi: 6481 ok 3519 ko ==> 64.81% di riuscita
+Su 10000 tentativi: 6570 ok 3430 ko ==> 65.7% di riuscita
+Su 10000 tentativi: 6495 ok 3505 ko ==> 64.95% di riuscita
+Su 10000 tentativi: 6624 ok 3376 ko ==> 66.24% di riuscita
+
+Su 100000 tentativi: 65484 ok 34516 ko ==> 65.484% di riuscita
+Su 100000 tentativi: 65315 ok 34685 ko ==> 65.315% di riuscita
+Su 100000 tentativi: 65495 ok 34505 ko ==> 65.495% di riuscita
+Su 100000 tentativi: 65405 ok 34595 ko ==> 65.405% di riuscita
+Su 100000 tentativi: 65331 ok 34669 ko ==> 65.331% di riuscita
+Su 100000 tentativi: 65384 ok 34616 ko ==> 65.384% di riuscita
+Su 100000 tentativi: 65384 ok 34616 ko ==> 65.384% di riuscita
+Su 100000 tentativi: 65355 ok 34645 ko ==> 65.355% di riuscita
+Su 100000 tentativi: 65140 ok 34860 ko ==> 65.14% di riuscita
+Su 100000 tentativi: 65614 ok 34386 ko ==> 65.614% di riuscita
+
+Su 1000000 tentativi: 653456 ok 346544 ko ==> 65.3456% di riuscita
+
+
+
+
+
+
+
+
